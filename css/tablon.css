@@ -2,13 +2,25 @@
 .row{
   margin-top:10px;
 }
-.card{
+
+li.col-md-3{
     border-radius: 40px;
-    padding:10px;
     padding:10px;
     background-color: #FFE699;
     min-height:300px;
 }
+.card{
+  background-color: #FFE699;
+  border-style:none;
+}
+.close{
+  padding-left:10px;
+}
 .card-img-top{
   min-height:200px;
+}
+.modal{
+  background-color: rgba(255, 230, 153,0.5);
+
+
 }
