@@ -6,10 +6,11 @@
         var tituloEvento="NOMBRE EVENTO";
         var localidad="Sabadell";
         intro+=` <li class="col-md-3">
-                <button type="button" class="close" aria-label="Close">
+                <button type="button"  class="close" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
                   <div class="card" id="elem${i}>
+
                       <div class="card-block">
 
                         <h4 class="card-title">${tituloEvento} ${i+1}</h4>
@@ -17,8 +18,7 @@
                         <div><span>LOCALIDAD:</span><span>${localidad}</span></div>
                       </div>
                     </div>
-                  </li>
-                    `;
+                  </li>`;
       }
       intro+=`</ul>`;
       document.getElementById('tablon').innerHTML=intro;
