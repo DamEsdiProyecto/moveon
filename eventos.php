@@ -16,7 +16,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="plantilla.html"><img src="img/icon.jpg" alt="Icono" title="Icono" width="36" height="36"> Move On!</a>
+        <a class="navbar-brand" href="plantilla.html"><img src="img/icon.png" alt="Icono" title="Icono" width="36" height="36"> Move On!</a>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -125,6 +125,20 @@
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"</script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-app.js"</script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-database.js"</script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyD2H2pkMY33ikhUZiD8NPxZbAqq5AQot5o",
+        authDomain: "moveon-f8c06.firebaseapp.com",
+        databaseURL: "https://moveon-f8c06.firebaseio.com/",
+        projectId: "moveon-f8c06",
+        storageBucket: "moveon-f8c06.appspot.com",
+        messagingSenderId: "435549598206"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>

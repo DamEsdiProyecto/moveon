@@ -47,4 +47,20 @@ footer p{
     background-color: #17a2b8!important;
     position: relative;
     right: 20px;
+<<<<<<< HEAD
+=======
+}
+.perfil{
+	height: 15%;
+	width: 15%;
+	float: left;
+	margin-left: 25%;
+	margin-right: 3%;
+	margin-top: 0cm;
+}
+.seguir{
+position: absolute;
+left: 31%;
+top: 31%;
+>>>>>>> 137d22bd0eafb28628c00a2efa099a1545e06ba9
 }
