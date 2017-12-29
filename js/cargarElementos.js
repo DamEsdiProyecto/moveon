@@ -6,6 +6,7 @@
         var tituloEvento="NOMBRE EVENTO";
         var localidad="Sabadell";
         intro+=` <li class="col-md-3">
+                <div class="circle" style="background-color:#FFCA28"></div>
                 <button type="button"  class="close" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>

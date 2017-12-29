@@ -10,14 +10,34 @@ li.col-md-3{
 }
 .card {
   padding: 10px;
+  margin-top:20px;
+  background-color: #FFF8E1;
+}
+.circle {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+  z-index:50;
+  display:inline;
+  position: absolute;
+  top:0%;
+  left:38%;
+  right:20px;
+  border:1px solid black;
+  color:black;
+  bottom:30px;
+	/* width and height can be anything, as long as they're equal */
+}
+h4{
+  margin-top: 30px;
 }
 
 .close{
   z-index:50;
   display:inline;
   position: absolute;
-      top: 10px;
-      right: 13px;
+      top: 10%;
+      right: 5%;
 }
 .card-img-top{
 
