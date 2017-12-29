@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Move On!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/plantilla.css">
+  </head>
+  <body>
+    
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top cabecera ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="plantilla.html"><img src="img/icon.jpg" alt="Icono" title="Icono" width="36" height="36"> Move On!</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Crear grup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Crear event</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a href="#" role="button" class="btn btn-primary" id="registrar">Registrarse</a>
+            <a href="#" role="button" class="btn btn-primary" id="inicio">Iniciar</a>
+          </form>
+        </div>
+      </nav>
+
+	  <div role="main">
+	  <br>
+		<img src="img/vacio.jpg" class="perfil" alt="avatar">
+		<button type="button" class="seguir" data-toggle="modal" data-target="#myModal">Editar perfil</button>
+		<div class="container">
+			<div id="profile">
+				<h4 class="m-y-2">Nombre</h4><br>
+				<div class="row">
+					<div class="col-md-6">
+						<h6>Hobbies</h6> 
+						<p>
+							Conciertos, ópera, baloncesto.
+						</p>
+					</div>
+					<div class="col-md-6">
+						
+						
+					</div>
+					<div class="col-md-12">
+						<h4 class="m-t-2"><span class="fa fa-clock-o ion-clock pull-xs-right"></span> <br>Eventos recientes</h4><br>
+						
+						<table class="table table-hover table-striped">
+							<tbody>                                    
+								<tr>
+									<td>
+										<strong>Pepito</strong> asistirá al evento <strong>`Concierto Rock`</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<strong>Pepito</strong> asistió al evento <strong>`2`</strong>
+									</td>
+
+								</tr>
+								<tr>
+									<td>
+										<strong>Pepito</strong> asistió al evento <strong>`3`</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<strong>Pepito</strong> asistió al evento <strong>`4`</strong>
+									</td>
+
+								</tr>
+								<tr>
+									<td>
+										<strong>Pepito</strong> asistirá al evento  <strong>`5`</strong>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!--/row-->
+			</div>
+		</div>
+	  </div>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+		  <!-- The Modal -->
+	  <div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+		  
+			<!-- Modal Header -->
+			<div class="modal-header">
+			  <h4 class="modal-title">Editar perfil</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			
+			<!-- Modal body -->
+			<div class="modal-body">
+				<form action="/my-handling-form-page" method="post">
+					<div>
+						<label for="name">Nombre:</label>
+						<input type="text" id="name" />
+					</div>
+					<div>
+						<label for="mail">E-mail:</label>
+						<input type="email" id="mail" />
+					</div>
+					<div>
+						<label for="hobbies">Hobbies:</label>
+						<input type="text" id="hobbies" />
+					</div>
+					<div>
+						<label for="imatge">Imatge: <input  name="img"  type="file"/></label></br></br>
+					</div>
+					
+
+				</form>
+			</div>
+			
+			<!-- Modal footer -->
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-primary">Guardar cambios</button>
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+        
+      </div>
+    </div>
+</div>
+      <footer>
+          <div class="container-fluid bg-primary py-3">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-10">
+                 <div class="row py-0">
+               <div class="col-sm-1 hidden-md-down">
+                   <a class="bg-circle bg-info" href="#">
+                     <img src="img/contact.png" alt="" height="36" width="36">
+                   </a>
+                 </div>
+                 <div class="col-sm-11 text-white">
+                     <div><h4>Contact</h4>
+                         <p><span class="header-font">M</span>ove<span class="header-font">O</span>n.com</p>
+                     </div>
+                 </div>
+                 </div>
+             </div>
+             <div class="col-md-2">
+               <div class="d-inline-block">
+                  <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook" title="Facebook" height="36" width="36"></a>                 
+                  <a href="https://twitter.com/"><img src="img/twitter.png" alt="Twitter" title="Twitter" height="36" width="36"></a>
+                  <a href="https://github.com/DamEsdiProyecto/moveon"><img src="img/github.png" alt="GitHub" title="GitHub" height="36" width="36"></a>
+                  <a href="https://www.google.es/"><img src="img/google.png" alt="Google+" title="Google+" height="36" width="36"></a>
+               </div>
+             </div>
+           </div>
+           <p class="text-center"> Copyright © Move On website 2017. All right reserved. </p>
+         </div>
+         </div>
+     </footer>
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
