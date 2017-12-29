@@ -1,0 +1,96 @@
+[debug] [2017-12-29T11:02:10.488Z] ----------------------------------------------------------------------
+[debug] [2017-12-29T11:02:10.490Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-29T11:02:10.490Z] CLI Version:   3.16.0
+[debug] [2017-12-29T11:02:10.490Z] Platform:      win32
+[debug] [2017-12-29T11:02:10.490Z] Node Version:  v8.1.4
+[debug] [2017-12-29T11:02:10.491Z] Time:          Fri Dec 29 2017 12:02:10 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:10.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-29T11:02:10.504Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-29T11:02:10.504Z] > authorizing via signed-in user
+[debug] [2017-12-29T11:02:10.506Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-29T11:02:10.506Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/yhcS5_7rn4zNd41pf9OSWmhM0drmVhcziYLyqb-V5lg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Dec 29 2017 12:02:10 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:10.691Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:02:10.727Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 12:02:10 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:11.537Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:02:11.539Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/moveon-f8c06/tokens  
+  
+ Fri Dec 29 2017 12:02:11 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:12.206Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'P:\Program Files (x86)\Git\github\proyecto-esdi'...
+[info] 
+[debug] [2017-12-29T11:02:12.212Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 12:02:12 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:13.105Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:02:13.106Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/435549598206/clients/_:getWebAppConfig  
+  
+ Fri Dec 29 2017 12:02:13 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:13.668Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[debug] [2017-12-29T11:02:13.744Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 12:02:13 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:14.493Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:02:14.493Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/435549598206/clients/_:getWebAppConfig  
+  
+ Fri Dec 29 2017 12:02:14 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:14.925Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:02:14.931Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\Jordi\AppData\Roaming\nvm\v8.1.4\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1342:10)
+    at _combinedTickCallback (internal/process/next_tick.js:99:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:198:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-12-29T11:02:27.858Z] ----------------------------------------------------------------------
+[debug] [2017-12-29T11:02:27.861Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-29T11:02:27.861Z] CLI Version:   3.16.0
+[debug] [2017-12-29T11:02:27.861Z] Platform:      win32
+[debug] [2017-12-29T11:02:27.861Z] Node Version:  v8.1.4
+[debug] [2017-12-29T11:02:27.861Z] Time:          Fri Dec 29 2017 12:02:27 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:27.861Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-29T11:02:27.874Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-29T11:02:27.874Z] > authorizing via signed-in user
+[debug] [2017-12-29T11:02:27.877Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 12:02:27 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:28.642Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:02:28.644Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/moveon-f8c06/tokens  
+  
+ Fri Dec 29 2017 12:02:28 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:29.267Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'P:\Program Files (x86)\Git\github\proyecto-esdi'...
+[info] 
+[debug] [2017-12-29T11:02:29.274Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 12:02:29 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:30.198Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:02:30.198Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/435549598206/clients/_:getWebAppConfig  
+  
+ Fri Dec 29 2017 12:02:30 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:02:30.728Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:02:30.770Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\Jordi\AppData\Roaming\nvm\v8.1.4\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1342:10)
+    at _combinedTickCallback (internal/process/next_tick.js:99:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:198:9)
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-esdi",
+  "version": "1.0.0",
+  "description": "dweythrtghdrfgv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamEsdiProyecto/moveon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamEsdiProyecto/moveon/issues"
+  },
+  "homepage": "https://github.com/DamEsdiProyecto/moveon#readme"
+}
