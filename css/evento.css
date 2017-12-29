@@ -1,0 +1,90 @@
+.cabecera{
+	background-color: #FFA949; 
+}
+
+#registrar{
+	background-color: white;
+	color: #FFA949;
+	border-color: #FFA949;
+}
+#registrar:hover{
+	background-color: #FFA949;
+	color: #17a2b8;
+	border-color: #17a2b8;
+}
+#inicio{
+	background-color: #FFA949;
+	color: white;
+	border-color: white;
+}
+#inicio:hover{
+	background-color: white;
+	color: #17a2b8;
+	border-color: #17a2b8;
+}
+
+.bg-primary {
+ background-color: #FFA949 !important;
+}
+
+.bg-circle
+{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 14px 4px;
+  text-align: center;
+  border-radius: 50%;
+}
+footer h4{
+	color: black;
+}
+footer p{
+	color: black;
+}
+
+.bg-info {
+    background-color: #17a2b8!important;
+    position: relative;
+    right: 20px;
+}
+
+footer {
+   
+    clear:both;
+}
+
+.center{
+	 text-align: center;
+}
+
+.lat{
+	float:right;
+    width:20%;
+	border-style: solid;
+    border-width: 2px;
+ 
+}
+
+
+
+.descripcio{
+	float:left;
+	width: 40%;
+	
+}
+
+
+.muro{
+	float:left;
+	width: 40%;
+	
+}
+
+.asis{
+	border-style: solid;
+    border-width: 2px;
+	float:left;
+	width: 100%;
+}
+
