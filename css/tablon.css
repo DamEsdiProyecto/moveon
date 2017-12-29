@@ -23,7 +23,8 @@ li.col-md-3{
   bottom:0%;
   right:0%;
   border-radius: 10%;
-
+  text-align: center;
+  padding-top: 2%;
 
 }
 .circle {

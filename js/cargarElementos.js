@@ -5,6 +5,7 @@
         var imagen="img/gris.png";
         var tituloEvento="NOMBRE EVENTO";
         var localidad="Sabadell";
+        var precio=0;
         intro+=` <li class="col-md-3">
                 <div class="circle" style="background-color:#FFCA28"></div>
                 <button type="button"  class="close" aria-label="Close">
@@ -19,7 +20,7 @@
                         <div><span>LOCALIDAD:</span><span>${localidad}</span></div>
                       </div>
                     </div>
-                    <div class="precio"></div>
+                    <div class="precio"> ${precio} € </div>
                   </li>`;
       }
       intro+=`</ul>`;
