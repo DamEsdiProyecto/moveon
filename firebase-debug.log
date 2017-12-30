@@ -94,3 +94,76 @@
     at process._tickDomainCallback (internal/process/next_tick.js:198:9)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2017-12-29T11:04:51.115Z] ----------------------------------------------------------------------
+[debug] [2017-12-29T11:04:51.118Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-29T11:04:51.118Z] CLI Version:   3.16.0
+[debug] [2017-12-29T11:04:51.118Z] Platform:      win32
+[debug] [2017-12-29T11:04:51.118Z] Node Version:  v8.1.4
+[debug] [2017-12-29T11:04:51.119Z] Time:          Fri Dec 29 2017 12:04:51 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:04:51.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-29T11:04:51.133Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-29T11:04:51.134Z] > authorizing via signed-in user
+[debug] [2017-12-29T11:04:51.136Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 12:04:51 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:04:52.094Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:04:52.095Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/moveon-f8c06/tokens  
+  
+ Fri Dec 29 2017 12:04:52 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:04:52.854Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'P:\Program Files (x86)\Git\github\proyecto-esdi'...
+[info] 
+[debug] [2017-12-29T11:04:52.862Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 12:04:52 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:04:53.691Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T11:04:53.691Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/435549598206/clients/_:getWebAppConfig  
+  
+ Fri Dec 29 2017 12:04:53 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T11:04:54.136Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-12-29T15:56:31.418Z] ----------------------------------------------------------------------
+[debug] [2017-12-29T15:56:31.423Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-29T15:56:31.424Z] CLI Version:   3.16.0
+[debug] [2017-12-29T15:56:31.424Z] Platform:      win32
+[debug] [2017-12-29T15:56:31.424Z] Node Version:  v8.1.4
+[debug] [2017-12-29T15:56:31.425Z] Time:          Fri Dec 29 2017 16:56:31 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T15:56:31.425Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-29T15:56:31.467Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-29T15:56:31.468Z] > authorizing via signed-in user
+[debug] [2017-12-29T15:56:31.472Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-29T15:56:31.473Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/yhcS5_7rn4zNd41pf9OSWmhM0drmVhcziYLyqb-V5lg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Dec 29 2017 16:56:31 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T15:56:31.749Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T15:56:31.878Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 16:56:31 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T15:56:32.665Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T15:56:32.666Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/moveon-f8c06/tokens  
+  
+ Fri Dec 29 2017 16:56:32 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T15:56:33.290Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'p:\Program Files (x86)\Git\github\proyecto-esdi'...
+[info] 
+[debug] [2017-12-29T15:56:33.308Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/moveon-f8c06  
+  
+ Fri Dec 29 2017 16:56:33 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T15:56:34.194Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T15:56:34.195Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/435549598206/clients/_:getWebAppConfig  
+  
+ Fri Dec 29 2017 16:56:34 GMT+0100 (Hora estándar romance)
+[debug] [2017-12-29T15:56:34.766Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+

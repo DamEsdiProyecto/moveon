@@ -3,8 +3,7 @@ window.addEventListener("load", function() {
   var eventosLista = database().ref('eventoLista');
 
   var ul = document.createElement("ul");
-  ul.classList.add("row")
-  ul.classList.add("list-unstyled");
+  ul.classList.add("row list-unstyled");
 
   eventosLista.on('value', snapshot => {
       let eventos = snapshot.val();
