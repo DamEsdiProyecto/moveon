@@ -13,52 +13,40 @@
 
   </head>
   <body>
-
-      <nav class="navbar navbar-expand-lg navbar-light sticky-top cabecera ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="plantilla.html"><img src="img/icon.jpg" alt="Icono" title="Icono" width="36" height="36"> Move On!</a>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Crear grup</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Crear event</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <a href="#" role="button" class="btn btn-primary" id="registrar">Registrarse</a>
-            <a href="#" role="button" class="btn btn-primary" id="inicio">Iniciar</a>
-          </form>
-        </div>
-      </nav>
-
-      <div role="main" id='tablon'>
-        <!-- Modal -->
-        <!-- .modal-profile -->
-      	<div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
-      			<div class="modal-dialog modal-lg">
-      				<div class="modal-content">
-      					<div class="modal-header">
-
-      						<h3 class="modal-title"></h3>
-      					</div>
-      					<div class="modal-body">
-      					</div>
-      					<div class="modal-footer">
-      					</div>
-      				</div>
-      			</div>
-      		</div>
-      	<!-- //.modal-profile -->
-
-      </div>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top cabecera ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="plantilla.html"><img src="img/icon.jpg" alt="Icono" title="Icono" width="36" height="36"> Move On!</a>
+        
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Crear grup</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Crear event</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <a href="#" role="button" class="btn btn-primary" id="registrar">Registrarse</a>
+                    <a href="#" role="button" class="btn btn-primary" id="inicio">Iniciar</a>
+                  </form>
+                </div>
+              </nav>
+              <!-- selector de archivos -->
+              <div class="row text-center" id="Loader" style="display:none" >
+                  <img src="img/ajax-loader.gif" alt="asd"/>
+              </div>
+      <span id="fileselector">
+          <label class="btn btn-default" for="upload-file-selector">
+          <input type="file" id="upload-file-selector" accept="image/x-png, image/gif, image/jpeg">
+          <i class="fa_icon icon-upload-alt margin-correction"></i>Subir Imagen
+          </label>
+        </span>
 
       <footer>
           <div class="container-fluid bg-primary py-3">
@@ -119,8 +107,10 @@
 
 
     </script>
+
     <script src="js/redimensionarImagen.js"></script>
-  <script src="js/firebase.js"></script>
-  <script src="js/cargarElementos.js"></script>
+    <script src="js/cargarElementos.js"></script>
+    
+
   </body>
 </html>

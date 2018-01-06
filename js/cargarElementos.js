@@ -1,5 +1,5 @@
+  // mostrar eventos
 window.addEventListener("load", function() {
-  var database = firebase.database;
   var eventosLista = database().ref('eventoLista');
 
   var ul = document.createElement("ul");
@@ -9,7 +9,8 @@ window.addEventListener("load", function() {
   eventosLista.on('value', snapshot => {
       let eventos = snapshot.val();
       for(let evento in eventos) {
-
+        var imagen="img/gris.png";
+        
         var li = document.createElement("li");
         li.classList.add("col-md-3");
 
@@ -29,17 +30,18 @@ window.addEventListener("load", function() {
 
         var cardblock = document.createElement("div");
         cardblock.classList.add("card-block");
-        cardblock.innerHTML = `<h4 class="card-title">${eventos[evento].titulo} ${evento}</h4>
-        <img class="card-img-top" src=${imagen} alt="Card image cap">
+        cardblock.innerHTML = `<h4 class="card-title">${eventos[evento].titulo}</h4>
+        <img class="card-img-top" src=${eventos[evento].urlLarge} alt="Card image cap">
         <div><span>LOCALIDAD:</span><span>${eventos[evento].lugar}</span></div>`
 
         card.appendChild(cardblock);
-        il.appendChild(circulo);
-        il.appendChild(btncerrar);
-        il.appendChild(card);
-        ul.appendChild(il);
+        li.appendChild(circulo);
+        li.appendChild(btncerrar);
+        li.appendChild(card);
+        ul.appendChild(li);
       }
 });
 
 document.getElementById('tablon').appendChild(ul);
+
 });
