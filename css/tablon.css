@@ -9,9 +9,15 @@ li.col-md-3{
     min-height:300px;
 }
 .card {
+  margin:5%;
   padding: 10px;
   margin-top:20px;
   background-color: #FFF8E1;
+  min-height: 400px;
+}
+.card:hover {
+    background-color: #FFE082;
+    transition: background-color 2s;
 }
 .precio{
   z-index:50;
@@ -35,26 +41,25 @@ li.col-md-3{
   display:inline;
   position: absolute;
   top:0%;
-  left:38%;
+  left:40%;
   right:20px;
   border:1px solid black;
   bottom:30px;
-	/* width and height can be anything, as long as they're equal */
+
 }
 h4{
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .close{
   z-index:50;
   display:inline;
   position: absolute;
-      top: 10%;
-      right: 5%;
+      top: 7%;
+      right: 10%;
 }
 .card-img-top{
-
-  min-height:200px;
+  display:inline;
 }
 .modal{
   background-color: rgba(255, 230, 153,0.5);
