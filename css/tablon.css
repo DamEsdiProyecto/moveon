@@ -13,19 +13,6 @@ li.col-md-3{
   margin-top:20px;
   background-color: #FFF8E1;
 }
-.precio{
-  z-index:50;
-  width:100px;
-  height:50px;
-  border:1px solid black;
-  background-color: white;
-  position: absolute;
-  bottom:0%;
-  right:0%;
-  border-radius: 10%;
-
-
-}
 .circle {
 	border-radius: 50%;
 	width: 70px;
@@ -37,6 +24,7 @@ li.col-md-3{
   left:38%;
   right:20px;
   border:1px solid black;
+  color:black;
   bottom:30px;
 	/* width and height can be anything, as long as they're equal */
 }

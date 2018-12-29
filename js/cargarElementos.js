@@ -19,7 +19,6 @@
                         <div><span>LOCALIDAD:</span><span>${localidad}</span></div>
                       </div>
                     </div>
-                    <div class="precio"></div>
                   </li>`;
       }
       intro+=`</ul>`;
